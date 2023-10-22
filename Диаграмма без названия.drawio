@@ -1,65 +1,637 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T07:50:09.843Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="M0CpLntl5hpqP9kBk8RH" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T09:07:10.864Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="0i37OX-SQ8IroG-LplIp" version="22.0.6" type="github">
   <diagram name="Страница — 1" id="Yz9J5zfGRuvx6JnRC0OP">
-    <mxGraphModel dx="800" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2900" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-2" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-3" value="a = filter(lambda x: x != &#39;a&#39;, string&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-4" value="string" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-4" target="WiNVBIPDF1WFuIHUNQk_-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="210" as="sourcePoint" />
-            <mxPoint x="280" y="300" as="targetPoint" />
+            <mxPoint x="150" y="150" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-3" target="WiNVBIPDF1WFuIHUNQk_-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="320" as="sourcePoint" />
-            <mxPoint x="260" y="270" as="targetPoint" />
+            <mxPoint x="130" y="260" as="sourcePoint" />
+            <mxPoint x="180" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-8" value="a = list(a)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="420" as="sourcePoint" />
-            <mxPoint x="220" y="380" as="targetPoint" />
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-10" value="a = &quot;&quot;.join(a)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="520" as="sourcePoint" />
-            <mxPoint x="220" y="480" as="targetPoint" />
+            <mxPoint x="130" y="460" as="sourcePoint" />
+            <mxPoint x="140" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-12" value="a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-12" target="WiNVBIPDF1WFuIHUNQk_-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="610" as="sourcePoint" />
-            <mxPoint x="220" y="590" as="targetPoint" />
+            <mxPoint x="150" y="550" as="sourcePoint" />
+            <mxPoint x="140" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-14" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiNVBIPDF1WFuIHUNQk_-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-14" target="WiNVBIPDF1WFuIHUNQk_-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="780" as="sourcePoint" />
-            <mxPoint x="130" y="730" as="targetPoint" />
+            <mxPoint y="720" as="sourcePoint" />
+            <mxPoint x="50" y="670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-16" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-17" value="string" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-17" target="WiNVBIPDF1WFuIHUNQk_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="sourcePoint" />
+            <mxPoint x="470" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-19" value="list(map(lambda x: int(x), string.split()))" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.79999999999995" y="360" as="sourcePoint" />
+            <mxPoint x="409.79999999999995" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-22" value="result = []" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-23" value="i=0(1)range(1, len(rx))" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-23" target="WiNVBIPDF1WFuIHUNQk_-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="490" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WiNVBIPDF1WFuIHUNQk_-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="580" as="sourcePoint" />
+            <mxPoint x="380" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-28" value="&amp;nbsp;rx[i - 1] &amp;lt; 0&lt;br&gt;and&lt;br&gt;&amp;nbsp;and rx[i] &amp;lt; 0]&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="580" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-39" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="620" as="sourcePoint" />
+            <mxPoint x="540" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-40" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="620" as="sourcePoint" />
+            <mxPoint x="540" y="670" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-42" value="result.append(&lt;br&gt;[rx[i], rx[i-1]]&lt;br&gt;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-43" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="620" as="sourcePoint" />
+            <mxPoint x="300" y="620" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-44" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="620" as="sourcePoint" />
+            <mxPoint x="300" y="760" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-45" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.438;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-42">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="430" y="730" as="sourcePoint" />
+            <mxPoint x="543" y="760" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-46" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="760" as="sourcePoint" />
+            <mxPoint x="410" y="760" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-47" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="760" as="sourcePoint" />
+            <mxPoint x="410" y="760" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-48" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="760" as="sourcePoint" />
+            <mxPoint x="410" y="800" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-49" value="result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-50" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-52" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-49" target="WiNVBIPDF1WFuIHUNQk_-50">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="535" y="910" as="sourcePoint" />
+            <mxPoint x="615" y="910" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-53" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-54" value="a = string.split()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-55" value="string" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-56" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-55" target="WiNVBIPDF1WFuIHUNQk_-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="150" as="sourcePoint" />
+            <mxPoint x="850" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-54" target="WiNVBIPDF1WFuIHUNQk_-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="260" as="sourcePoint" />
+            <mxPoint x="830" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-58" value="a set(map(lambda: x: int(x), a))" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="360" as="sourcePoint" />
+            <mxPoint x="790" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="459.9999999999999" as="sourcePoint" />
+            <mxPoint x="790" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-62" value="a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-64" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-64" target="WiNVBIPDF1WFuIHUNQk_-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="620" as="sourcePoint" />
+            <mxPoint x="700" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-67" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="WiNVBIPDF1WFuIHUNQk_-67" source="WiNVBIPDF1WFuIHUNQk_-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="130" as="sourcePoint" />
+            <mxPoint x="2300" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-69" value="&lt;div&gt;available = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;hello1&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;hello2&quot;: 20,&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-70" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1.016;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="140" as="sourcePoint" />
+            <mxPoint x="1350" y="66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-72" value="&lt;div&gt;def get_product(is_again=False) -&amp;gt; str:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-73" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-74" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1.016;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1739" y="130" as="sourcePoint" />
+            <mxPoint x="1809" y="56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-75" value="&lt;div&gt;&lt;div&gt;def selector() -&amp;gt; list:&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="1809" y="30" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-76" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="140" as="sourcePoint" />
+            <mxPoint x="1700" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-77" value="&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; products = list()&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-78" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-79" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="860" as="sourcePoint" />
+            <mxPoint x="620" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-80" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="800" as="sourcePoint" />
+            <mxPoint x="620" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-81" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="800" as="sourcePoint" />
+            <mxPoint x="410" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-82" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="800" as="sourcePoint" />
+            <mxPoint x="260" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-83" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WiNVBIPDF1WFuIHUNQk_-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-84" value="i=0(1)range(len(rx))" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-85" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WiNVBIPDF1WFuIHUNQk_-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="380" as="sourcePoint" />
+            <mxPoint x="1670" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-86" value="&amp;nbsp;rx[i - 1] &amp;lt; 0&lt;br&gt;and&lt;br&gt;&amp;nbsp;and rx[i] &amp;lt; 0]&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="380" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-87" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1770" y="420" as="sourcePoint" />
+            <mxPoint x="1830" y="420" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-88" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1830" y="420" as="sourcePoint" />
+            <mxPoint x="1830" y="470" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-89" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;product = get_product()&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;products.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;append(product)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-90" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-86">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1620" y="420" as="sourcePoint" />
+            <mxPoint x="1590" y="420" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-91" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1590" y="420" as="sourcePoint" />
+            <mxPoint x="1590" y="560" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-92" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.438;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-89">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1720" y="530" as="sourcePoint" />
+            <mxPoint x="1833" y="560" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-93" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1590" y="560" as="sourcePoint" />
+            <mxPoint x="1700" y="560" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-94" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1830" y="560" as="sourcePoint" />
+            <mxPoint x="1700" y="560" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-95" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1700" y="560" as="sourcePoint" />
+            <mxPoint x="1700" y="600" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-96" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1830" y="340" as="sourcePoint" />
+            <mxPoint x="1910" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-97" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="600" as="sourcePoint" />
+            <mxPoint x="1700" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-98" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="600" as="sourcePoint" />
+            <mxPoint x="1550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-99" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WiNVBIPDF1WFuIHUNQk_-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1550" y="300" as="sourcePoint" />
+            <mxPoint x="1720" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-100" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1910" y="640" as="sourcePoint" />
+            <mxPoint x="1910" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-101" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="640" as="sourcePoint" />
+            <mxPoint x="1910" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-102" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-84" target="WiNVBIPDF1WFuIHUNQk_-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1690" y="280" as="sourcePoint" />
+            <mxPoint x="1740" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-104" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="670" as="sourcePoint" />
+            <mxPoint x="1700" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-105" value="return products" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-106" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-108" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-106" target="WiNVBIPDF1WFuIHUNQk_-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1690" y="800" as="sourcePoint" />
+            <mxPoint x="1740" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-117" value="is_again" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="139.2" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-118" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1310" y="179.2" as="sourcePoint" />
+            <mxPoint x="1370" y="179.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-119" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1370" y="179.2" as="sourcePoint" />
+            <mxPoint x="1370" y="229.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-121" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-117">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1160" y="179.2" as="sourcePoint" />
+            <mxPoint x="1130" y="179.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-123" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.438;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1372.56" y="292.98" as="sourcePoint" />
+            <mxPoint x="1373" y="319.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-124" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1130" y="319.2" as="sourcePoint" />
+            <mxPoint x="1240" y="319.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-125" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1370" y="319.2" as="sourcePoint" />
+            <mxPoint x="1240" y="319.2" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-126" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-117" target="WiNVBIPDF1WFuIHUNQk_-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="170" as="sourcePoint" />
+            <mxPoint x="1280" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-128" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="320" as="sourcePoint" />
+            <mxPoint x="1130" y="279.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-129" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="219.20000000000005" as="sourcePoint" />
+            <mxPoint x="1130" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-130" value="Введите продукт" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-131" value="Введите продукт снова" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-132" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="350" as="sourcePoint" />
+            <mxPoint x="1240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-134" value="product" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-135" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="450" as="sourcePoint" />
+            <mxPoint x="1240" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-136" value="product.split()[0] &lt;br&gt;not in available" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="450" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-137" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1310" y="490" as="sourcePoint" />
+            <mxPoint x="1370" y="490" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-138" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1370" y="490" as="sourcePoint" />
+            <mxPoint x="1370" y="540" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-139" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-136">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1160" y="490" as="sourcePoint" />
+            <mxPoint x="1130" y="490" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-140" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1130" y="490" as="sourcePoint" />
+            <mxPoint x="1130" y="630" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-141" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.438;exitY=1.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1373" y="604" as="sourcePoint" />
+            <mxPoint x="1373" y="630" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-142" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1130" y="630" as="sourcePoint" />
+            <mxPoint x="1240" y="630" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-143" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1370" y="630" as="sourcePoint" />
+            <mxPoint x="1240" y="630" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-144" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1240" y="630" as="sourcePoint" />
+            <mxPoint x="1240" y="670" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-146" value="get_product(True)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-147" value="return product" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-148" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1240" y="730" as="sourcePoint" />
+            <mxPoint x="1240" y="770" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-149" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-153" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;value = selector()&lt;/div&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;result = sum([available[i.split()[0]] for i in value])&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-154" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-153" target="WiNVBIPDF1WFuIHUNQk_-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2250" y="180" as="sourcePoint" />
+            <mxPoint x="2240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-155" value="result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-156" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-155" target="WiNVBIPDF1WFuIHUNQk_-153">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="309.28932188134524" as="sourcePoint" />
+            <mxPoint x="2230" y="259.28932188134524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-157" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WiNVBIPDF1WFuIHUNQk_-158" target="WiNVBIPDF1WFuIHUNQk_-155">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="420" as="sourcePoint" />
+            <mxPoint x="2260" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-159" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WiNVBIPDF1WFuIHUNQk_-158">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="420" as="sourcePoint" />
+            <mxPoint x="2240" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiNVBIPDF1WFuIHUNQk_-158" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
